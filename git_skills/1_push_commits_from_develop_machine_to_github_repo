@@ -1,0 +1,6 @@
+push failed, need rsa token. but I have added a default token for the repo of my work.
+A good solution:
+1. create a token on github: settings->Developer settings->Personal access tokens->Generate new token
+2. add new remote name with the token: git remote add new_remote_name https://your_token@your_git_repo_url,
+   if the https url of your repo is: https://github.com/apollo007fd/cpp_programmer_notes.git, then the last part of this command is https://your_token@github.com/apollo007fd/cpp_programmer_notes.git,
+   or you can modify the origin url: git remote set-url origin https://your_token@your_git_repo_url
