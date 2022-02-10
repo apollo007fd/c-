@@ -1,1 +1,0 @@
-# notebook for c++ programmer
