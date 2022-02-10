@@ -1,0 +1,11 @@
+call default constructor
+call default constructor
+call constructor with parameters
+call '=' operator
+call copy constructor
+call copy constructor
+c1 = (1, 2)
+c2 = (0, 0)
+c3 = (1, 2)
+c4 = (0, 0)
+c5 = (0, 0)
