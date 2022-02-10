@@ -1,4 +1,4 @@
-push failed, need rsa token. but I have added a default token for the repo of my work.
+push commits from my development machine to githup repo failed, the error log hint me that I should set rsa token, but I have added a default token for the repo of my work.
 A good solution:
 1. create a token on github: settings->Developer settings->Personal access tokens->Generate new token
 2. add new remote name with the token: git remote add new_remote_name https://your_token@your_git_repo_url,
