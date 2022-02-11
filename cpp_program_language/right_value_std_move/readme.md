@@ -10,4 +10,4 @@
 右值引用: 能指向右值,不能指向左值
 但是右值引用: 能指向std::move()过的左值
 
-左值引用\右值引用本身都是左值 [1_right_reference_is_left_value.cpp]
+左值引用和右值引用本身都是左值, 参考[1_right_reference_is_left_value.cpp](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/cpp_program_language/right_value_std_move/1_right_reference_is_left_value.cpp)
