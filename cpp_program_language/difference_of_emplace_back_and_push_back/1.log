@@ -1,0 +1,59 @@
+据说如果没有人为定义移动构造函数,但有定义拷贝构造函数,push_back则会优先调用拷贝构造函数 
+[ref1](https://blog.csdn.net/xiaolewennofollow/article/details/52559364)
+[ref2](https://zhuanlan.zhihu.com/p/213853588)
+------------------------------------------------------------------------
+总结:
+1. case0的方式最高效, 只需要原地构造到vector中
+2. case5,9的方式(push_back传入右值)只需要移动构造, 效率次于case0, [参考stl源码](https://zhuanlan.zhihu.com/p/213853588#:~:text=/**%0A%20*%20%20%E4%BB%A5%E4%B8%8B%E7%A8%8B%E5%BA%8F%E6%9D%A5%E8%87%AA,move(__x))%3B%0A%7D%0A%23endif)
+3. case6,8的方式很低效(push_back传入左值效率低), 避免使用, 如果非得这样,可以用emplace_back传入左值替代
+4. case1和case3对比说明:emplace_back传入左值, 会调用拷贝构造函数; emplace_back传入右值, 会调用移动构造函数
+------------------------------------------------------------------------
+0.emplace_back:
+I am being constructed.
+
+1.emplace_back:
+I am being constructed.
+I am being moved.
+
+2.emplace_back:
+I am being constructed.
+I am being moved.
+
+3.emplace_back:
+I am being constructed.
+I am being copy constructed.
+
+4.emplace_back:
+I am being constructed.
+I am being moved.
+
+5.push_back:
+I am being constructed.
+I am being moved.
+
+6.push_back:
+I am being constructed.
+I am being copy constructed.
+I am being copy constructed.
+
+7:
+I am being constructed.
+
+8.push_back:
+I am being copy constructed.
+I am being copy constructed.
+I am being copy constructed.
+
+9.push_back:
+I am being moved.
+
+Contents:
+Nelson Mandela was elected president of South Africa in 1994.
+Nelson Mandela was elected president of South Africa in 1994.
+Nelson Mandela was elected president of South Africa in 1994.
+Nelson Mandela was elected president of South Africa in 1994.
+Nelson Mandela was elected president of South Africa in 1994.
+Franklin Delano Roosevelt was re-elected president of the USA in 1936.
+Franklin Delano Roosevelt was re-elected president of the USA in 1936.
+Franklin Delano Roosevelt was re-elected president of the USA in 1936.
+Franklin Delano Roosevelt was re-elected president of the USA in 1936.

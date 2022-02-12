@@ -12,6 +12,9 @@ void f2(int&& n) {
 }
 
 int main() {
-  f(5);
+  //f(5);
   f2(5);
+  int i = 5;
+  f2(std::move(i));
+  cout << i << endl; // 6
 }
