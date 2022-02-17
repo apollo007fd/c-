@@ -16,7 +16,7 @@ public:
     vector<int> reversePrint(ListNode* head) {
         vector<int> ans;
         std::function<void(ListNode*)> glambda;
-        glambda = [&ans, &glambda] (ListNode* node) {  // 匿名函数递归需要函数本身的引用捕获
+        glambda = [&ans, &glambda] (ListNode* node) {  // 匿名函数递归需要函数本身的引用捕获, 所以上一行得先声明匿名函数
             if (node == NULL) return;
             glambda(node->next);
             ans.push_back(node->val);
