@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <functional>
+#include <functional>  // std::function
 using namespace std;
 
 // Definition for singly-linked list.
