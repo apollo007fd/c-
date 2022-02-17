@@ -5,4 +5,8 @@
 剑指 Offer 06. 从尾到头打印链表 [leetcode](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [代码](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_07_reconstruct_binary_tree.cpp)  
 剑指 Offer 07. 重建二叉树 [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | [代码](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_07_reconstruct_binary_tree.cpp)  
 剑指 Offer 09. 用两个栈实现队列 [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_08_replace_queue_with_2_stack.cpp)  
-
+ [leetcode]() | [code]()  
+ [leetcode]() | [code]()  
+ [leetcode]() | [code]()  
+ [leetcode]() | [code]()  
+ [leetcode]() | [code]()  
