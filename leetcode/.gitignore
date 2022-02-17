@@ -1,1 +1,4 @@
-*.DSYM/
+*
+!*.cpp
+!*.md
+!.vscode

@@ -26,8 +26,7 @@ public:
 };
 
 int main() {
-    //vector<int> vecs {1, 2, 3};
-    vector<vector<int> > 2d_vec
+    vector<vector<int>> vec_2d
     {
         {1, 4, 7, 11, 15},
         {2, 5, 8, 12, 19},
@@ -35,7 +34,7 @@ int main() {
         {10, 13, 14, 17, 24},
         {18, 21, 23, 26, 30}
     };
-    //Solution solution;
-    //bool ans = solution.findNumberIn2DArray(2d_vec, 9);
-    //cout << ans << endl;
+    Solution solution;
+    bool ans = solution.findNumberIn2DArray(vec_2d, 9);
+    cout << ans << endl;
 }
