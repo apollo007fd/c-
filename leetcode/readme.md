@@ -7,6 +7,6 @@
 剑指 Offer 09. 用两个栈实现队列 [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_09_replace_queue_with_2_stack.cpp)  
 剑指 Offer 10- I. 斐波那契数列 [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [解法](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_10_Fibonacci.md) | [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_10_Fibonacci.cpp)  
 剑指 Offer 10- II. 青蛙跳台阶问题 [leetcode](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | 解法跟斐波拉契数列问题一样 [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_10_Fibonacci.cpp)  
-剑指 Offer 11. 旋转数组的最小数字 [leetcode](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | [code]()  
-剑指 Offer 12. 矩阵中的路径 [leetcode](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [code]()  
+剑指 Offer 11. 旋转数组的最小数字 [leetcode](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_11_min_number_of_array.cpp)  
+[待复习] 剑指 Offer 12. 矩阵中的路径 [leetcode](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_12_path_of_array.cpp)  
  [leetcode]() | [code]()  
