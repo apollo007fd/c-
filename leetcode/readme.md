@@ -11,7 +11,7 @@
 [已复习] 剑指 Offer 12. 矩阵中的路径 [leetcode](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_12_path_of_array.cpp)  
 剑指 Offer 13. 机器人的运动范围 [leetcode](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | [code]()  
 剑指 Offer 14- I. 剪绳子 [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | [code](https://github.com/apollo007fd/cpp_programmer_notes/blob/main/leetcode/jianzhi_offer_14.cpp)  
- [leetcode]() | [code]()  
+ [待继续] 剑指 Offer 14- II. 剪绳子 [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | [code]()  
  [leetcode]() | [code]()  
  [leetcode]() | [code]()  
  [leetcode]() | [code]()  
