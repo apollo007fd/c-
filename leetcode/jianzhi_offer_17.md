@@ -23,3 +23,5 @@ vector<int> printNumbers(int n) {
 固定最高位，对下一位进行递归，一次层层递归，递归深度为n;
 
 nums保存一个排列的n位字母，res保存所有的排列
+
+注意用std::function定义内部的递归函数，需要引用捕获该std::function；
